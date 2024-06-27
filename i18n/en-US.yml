@@ -1,0 +1,52 @@
+contacts:
+  block:
+    description: Reach me using this contact form (under maintanance) or social links.
+  subtitle: Where you can reach me
+  textme:
+    from:
+      errorMessage: The Sender email address is required obv... Why would you have to be anonymized when writing to me?
+      label: From
+      placeholder: What's your email?
+    message:
+      errorMessage: The Message field is required obv... Why would you text me for nothing???
+      label: Message
+      placeholder: Write here the message text
+    name:
+      label: Name
+      placeholder: What's your name?
+    subject:
+      errorMessage: The Subject field is required, as it helps me to understand better the content of the email.
+      label: Subject
+      placeholder: What you want reach me for?
+    subtitle: Fill this form to send me an email.
+    title: Text Me
+  title: Contacts
+darkThemeMessage:
+  header: Dark Theme Support
+details:
+  subtitle: Some bio.
+  title: Details
+education:
+  title: Education
+experience:
+  title: Experience
+footer:
+  bulma:
+    alt: Made with Bulma
+form:
+  cancel: Cancel
+  submit: Submit
+home:
+  title: Home
+index:
+  subtitle: I'm an italian Scout and IT Engineer.
+interests:
+  subtitle: My relevant IT interests.
+  title: Interests
+thisSite:
+  subtitle: I've made this site using Nuxt
+  title: My personal site using Nuxt
+volunteer:
+  subtitle: My major volunteer experiences.
+  title: Volunteer experience
+welcome: Welcome

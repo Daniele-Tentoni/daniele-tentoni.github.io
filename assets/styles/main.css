@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Test Me Regular";
+    src: url(~/assets/styles/TestMeSans02-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "Test Me Bold";
+    src: url(~/assets/styles/TestMeSans02-Bold.otf) format("opentype");
+}
+
+body {
+    font-family: "Test Me Regular", Verdana, Tahoma,
+        sans-serif;
+    overflow-x: hidden;
+}
+
+strong {
+    font-family: "Test Me Bold", Verdana, Tahoma, sans-serif;
+}
+
+a {
+    color: #eee;
+    font-size: 1em;
+    text-decoration: underline;
+    transition: text-decoration 2s 0.5s;
+}
+
+a:hover {
+    color: #aaa;
+    font-weight: bold;
+    text-decoration: none;
+}

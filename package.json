@@ -1,0 +1,38 @@
+{
+    "name": "daniele-tentoni.github.io",
+    "author": "daniele-tentoni",
+    "license": "MIT",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Daniele-Tentoni/daniele-tentoni.github.io.git"
+    },
+    "version": "0.1.0",
+    "scripts": {
+        "build": "nuxi build",
+        "clean": "nuxi cleanup && rm -rf .nuxt .output dist node_modules",
+        "dev": "nuxi dev",
+        "lint": "eslint --ext \".ts,.js,.vue,.json\" --ignore-path .eslintignore .",
+        "generate": "nuxi generate",
+        "start": "nuxi preview"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.2.0",
+        "@nuxtjs/sitemap": "^2.4.0",
+        "@pinia/nuxt": "^0.4.3",
+        "bulma": "^0.9.4",
+        "bulma-switch": "^2.0.4",
+        "bulma-timeline": "^3.0.5",
+        "parse": "^3.4.2",
+        "pinia": "^2.0.23"
+    },
+    "devDependencies": {
+        "@intlify/eslint-plugin-vue-i18n": "^2.0.0",
+        "@nuxtjs/i18n": "^8.0.0",
+        "eslint": "^8.26.0",
+        "eslint-plugin-nuxt": "^4.0.0",
+        "nuxt": "^3.0.0",
+        "sass": "^1.55.0",
+        "sass-loader": "^10.3.1"
+    }
+}

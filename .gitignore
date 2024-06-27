@@ -1,0 +1,12 @@
+# Env files
+.env*
+!.env.example
+
+# Build artifacts
+.nuxt/
+.output/
+dist
+node_modules/
+
+# VSCode files
+.vscode/settings.json

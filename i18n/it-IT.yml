@@ -1,0 +1,45 @@
+contacts:
+  textme:
+    from:
+      errorMessage: Il Mittente è obbligatorio ovviamente... Perché mai qualcuno di anonimo dovrebbe scrivermi?
+      label: Mittente
+      placeholder: Email input
+    message:
+      errorMessage: Il campo Messaggio è richiesto ovviamente... Perché dovresti scrivermi per niente???
+      label: Messaggio
+      placeholder: Scrivi qui il testo del messaggio
+    name:
+      label: Nome
+      placeholder: Text input
+    subject:
+      errorMessage: Il campo Oggetto è richiesto, dato che mi aiuta a capire meglio il contenuto della email.
+      label: Oggetto
+    subtitle: Completa questo form per mandarmi una mail.
+    title: Scrivimi
+  title: Contatti
+darkThemeMessage:
+  header: Supporto al tema scuro
+details:
+  subtitle: Un po' di biografia.
+  title: Dettagli
+education:
+  title: Educazione
+experience:
+  title: Esperienze
+form:
+  cancel: Cancella
+  submit: Invia
+home:
+  title: Home
+index:
+  subtitle: Sono uno Scout italiano e un ingegnere informatico.
+interests:
+  subtitle: I miei principali interessi informatici.
+  title: Interessi
+thisSite:
+  subtitle: Ho realizzato questo sito usando Nuxt
+  title: Il mio sito personale usando Nuxt
+volunteer:
+  subtitle: Le mie maggiori esperienze di volontariato.
+  title: Esperienze di Volontariato
+welcome: Benvenuti
