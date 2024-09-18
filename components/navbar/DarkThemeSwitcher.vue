@@ -1,30 +1,38 @@
 <template>
-  <div class="field">
-    <input
-      id="switchRoundedDefault"
-      v-model="isDark"
-      type="checkbox"
-      name="switchRoundedDefault"
-      class="switch is-rounded"
-      :class="{ 'is-light is-outlined': isDark }"
-    />
-    <label for="switchRoundedDefault">
-      <span class="icon-text">
-        <span class="icon">
-          <i
-            :class="{
-              'fas fa-sun': isDark,
-              'fas fa-moon': !isDark,
-            }"
-          />
-        </span>
-        <span>Dark Theme</span>
-      </span>
-    </label>
-  </div>
+    <div class="field">
+        <BDropDown>
+            <template #activator="{ attrs }">
+                <input
+                    id="switchRoundedDefault"
+                    v-model="isDark"
+                    type="checkbox"
+                    name="switchRoundedDefault"
+                    class="switch is-rounded"
+                    :class="{ 'is-light is-outlined': isDark }"
+                    v-bind="attrs"
+                />
+                <label for="switchRoundedDefault">
+                    <span class="icon-text">
+                        <span class="icon">
+                            <i
+                                :class="{
+                                    'fas fa-sun': isDark,
+                                    'fas fa-moon': !isDark,
+                                }"
+                            />
+                        </span>
+                        <span>Dark Theme</span>
+                    </span>
+                </label>
+            </template>
+            Cambia il tema del sito.
+        </BDropDown>
+    </div>
 </template>
 
 <script setup>
+import BDropDown from "../dropdown/BDropDown.vue";
 import { useThemeStore } from "../../stores/themeStore";
+
 const { isDark } = useThemeStore();
 </script>
