@@ -73,17 +73,19 @@
                             donation.
                         </p>
                     </MySection>
-                    <MySection id="thisSite">
+                    <MySection id="this-site">
                         <p>
-                            To improve my personal skills with Vue 3 and Nuxt 3,
-                            I've made with static context site from scratch. For
-                            more info, look at the
-                            <a
-                                href="https://github.com/daniele-tentoni/daniele-tentoni.github.io"
-                                target="_blank"
+                            <i18n-t
+                                keypath="this-site.content"
+                                for="this-site.tos"
                             >
-                                public repo.</a
-                            >
+                                <a
+                                    href="https://github.com/daniele-tentoni/daniele-tentoni.github.io"
+                                    target="_blank"
+                                >
+                                    {{ t("this-site.tos") }}
+                                </a>
+                            </i18n-t>
                         </p>
                     </MySection>
                     <DarkThemeMessage />

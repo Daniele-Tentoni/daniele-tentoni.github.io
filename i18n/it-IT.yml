@@ -36,9 +36,11 @@ index:
 interests:
   subtitle: I miei principali interessi informatici.
   title: Interessi
-thisSite:
+'this-site':
   subtitle: Ho realizzato questo sito usando Nuxt
   title: Il mio sito personale usando Nuxt
+  content: Per migliorare le mie capacità personali con Vue e Nuxt, ho creato questo sito statico da zero. Per altre informazioni, guarda al {0}.
+  tos: repository pubblico
 volunteer:
   subtitle: Le mie maggiori esperienze di volontariato.
   title: Esperienze di Volontariato

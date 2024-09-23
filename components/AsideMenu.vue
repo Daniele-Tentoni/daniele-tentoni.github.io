@@ -7,35 +7,35 @@
                 'has-background-light has-text-dark': !isDark,
             }"
         >
-            <p style="padding: 1rem;">Navigation</p>
+            <span style="padding: 1rem">Navigation</span>
         </p>
         <ul class="menu-list">
             <li>
-                <MenuLink href="#details"> {{ $t("details.title") }} </MenuLink>
+                <MenuLink href="details"> {{ $t("details.title") }} </MenuLink>
             </li>
             <li>
-                <MenuLink href="#interests">
+                <MenuLink href="interests">
                     {{ $t("interests.title") }}
                 </MenuLink>
             </li>
             <li>
-                <MenuLink href="#experience">
+                <MenuLink href="experience">
                     {{ $t("experience.title") }}
                 </MenuLink>
             </li>
             <li>
-                <MenuLink href="#education">
+                <MenuLink href="education">
                     {{ $t("education.title") }}
                 </MenuLink>
             </li>
             <li>
-                <MenuLink href="#volunteer">
+                <MenuLink href="volunteer">
                     {{ $t("volunteer.title") }}
                 </MenuLink>
             </li>
             <li>
-                <MenuLink href="#this-site">
-                    {{ $t("thisSite.title") }}
+                <MenuLink href="this-site">
+                    {{ $t("this-site.title") }}
                 </MenuLink>
             </li>
         </ul>

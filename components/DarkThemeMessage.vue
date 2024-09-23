@@ -2,13 +2,17 @@
     <Transition>
         <article
             v-if="showDarkThemeMessage"
-            class="message"
+            class="message m-4"
             :class="{
                 'is-dark': isDark,
                 'is-light': !isDark,
             }"
+            :style="{ border: '1px solid white' }"
         >
-            <div class="message-header" :style="{ border: '1px solid white' }">
+            <div
+                class="message-header"
+                :style="{ 'border-bottom': '1px solid white' }"
+            >
                 <p>{{ $t("darkThemeMessage.header") }}</p>
                 <button
                     class="delete"
