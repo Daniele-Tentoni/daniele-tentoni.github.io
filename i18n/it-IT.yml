@@ -17,8 +17,12 @@ contacts:
     subtitle: Completa questo form per mandarmi una mail.
     title: Scrivimi
   title: Contatti
-darkThemeMessage:
-  header: Supporto al tema scuro
+dark-theme:
+  message:
+    header: Dark Theme Support
+    content: Il supporto al tema scuro in questo sito non è completo in quanto è molto dispendioso per me mantenerlo e Nuxt/Vue/Bulma ancora mancano di qualche funzionalità. Se hai dei consigli o vorresti contribuire, contattami nel {0} o {1}. Te ne sarei veramente grato ;)
+  switcher:
+    text: Cambia il tema del sito.
 details:
   subtitle: Un po' di biografia.
   title: Dettagli

@@ -25,7 +25,7 @@
                     </span>
                 </label>
             </template>
-            Cambia il tema del sito.
+            {{ t("dark-theme.switcher.text") }}
         </BDropDown>
     </div>
 </template>
@@ -35,4 +35,6 @@ import BDropDown from "../dropdown/BDropDown.vue";
 import { useThemeStore } from "../../stores/themeStore";
 
 const { isDark } = useThemeStore();
+
+const { t } = useI18n();
 </script>

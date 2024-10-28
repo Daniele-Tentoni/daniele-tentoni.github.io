@@ -21,8 +21,12 @@ contacts:
     subtitle: Fill this form to send me an email.
     title: Text Me
   title: Contacts
-darkThemeMessage:
-  header: Dark Theme Support
+dark-theme:
+  message:
+    header: Dark Theme Support
+    content: Dark Theme support lack in this site because it's really time consuming for me and Nuxt/Vue/Bulma lack in some features. If you have any advice or wanna contribute, let me know in the {0} or {1} . I will be glad to you ;)
+  switcher:
+    text: Change the site theme.
 details:
   subtitle: Some bio.
   title: Details
