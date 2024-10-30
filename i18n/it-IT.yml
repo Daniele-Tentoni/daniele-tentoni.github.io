@@ -1,18 +1,24 @@
 contacts:
   textme:
     from:
-      errorMessage: Il Mittente è obbligatorio ovviamente... Perché mai qualcuno di anonimo dovrebbe scrivermi?
+      errorMessage: >-
+        Il Mittente è obbligatorio ovviamente... Perché mai qualcuno di anonimo
+        dovrebbe scrivermi?
       label: Mittente
       placeholder: Email input
     message:
-      errorMessage: Il campo Messaggio è richiesto ovviamente... Perché dovresti scrivermi per niente???
+      errorMessage: >-
+        Il campo Messaggio è richiesto ovviamente... Perché dovresti scrivermi
+        per niente???
       label: Messaggio
       placeholder: Scrivi qui il testo del messaggio
     name:
       label: Nome
       placeholder: Text input
     subject:
-      errorMessage: Il campo Oggetto è richiesto, dato che mi aiuta a capire meglio il contenuto della email.
+      errorMessage: >-
+        Il campo Oggetto è richiesto, dato che mi aiuta a capire meglio il
+        contenuto della email.
       label: Oggetto
     subtitle: Completa questo form per mandarmi una mail.
     title: Scrivimi
@@ -40,12 +46,16 @@ index:
 interests:
   subtitle: I miei principali interessi informatici.
   title: Interessi
-'this-site':
+this-site:
   subtitle: Ho realizzato questo sito usando Nuxt
   title: Il mio sito personale usando Nuxt
-  content: Per migliorare le mie capacità personali con Vue e Nuxt, ho creato questo sito statico da zero. Per altre informazioni, guarda al {0}.
+  content: >-
+    Per migliorare le mie capacità personali con Vue e Nuxt, ho creato questo
+    sito statico da zero. Per altre informazioni, guarda al {0}.
   tos: repository pubblico
 volunteer:
   subtitle: Le mie maggiori esperienze di volontariato.
   title: Esperienze di Volontariato
 welcome: Benvenuti
+tools:
+  title: Strumenti
