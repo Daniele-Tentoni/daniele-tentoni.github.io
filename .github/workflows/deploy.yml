@@ -28,6 +28,11 @@ jobs:
               with:
                   path: ./.output/public
 
+            - name: Upload server artifact
+              uses: actions/upload-artifact@v1
+              with:
+                  path: .output/server
+
     deploy:
         needs: build
         runs-on: ubuntu-latest
