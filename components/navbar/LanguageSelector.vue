@@ -32,4 +32,8 @@ const switchLocalePath = useSwitchLocalePath();
 const availableLocales = computed(() => {
     return locales.value.filter((i) => i.code !== locale.value);
 });
+
+const nextLocale = computed(() =>
+    availableLocales.value.findIndex((i) => i.name == locale.value.name)
+);
 </script>

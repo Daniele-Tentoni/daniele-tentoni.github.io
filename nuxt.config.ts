@@ -46,7 +46,8 @@ export default defineNuxtConfig({
         "@pinia/nuxt",
         "@nuxt/content",
         // This module is unbuildable by me.
-        "@nuxtjs/sitemap", // Has to be at the end of array to catch all files. https://sitemap.nuxtjs.org/guide/setup#setup
+        "@nuxtjs/sitemap", // Has to be at the end of array to catch all files. https://sitemap.nuxtjs.org/guide/setup#setup,
+        "@nuxt/eslint",
     ],
 
     nitro: {
