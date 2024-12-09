@@ -1,4 +1,6 @@
 {
-  "extends": "./.nuxt/tsconfig.json",
-  "files": ["*.yml"]
+    "extends": "./.nuxt/tsconfig.json",
+    "compilerOptions": {
+        "types": ["@nuxt/types"]
+    }
 }

@@ -21,20 +21,21 @@ export default defineNuxtConfig({
     ],
 
     i18n: {
+        vueI18n: "./i18n/i18n.config.ts",
         baseUrl: "https://daniele-tentoni.github.io",
         defaultLocale: "en",
-        langDir: "./i18n",
+        // langDir: "locales",
         locales: [
             {
                 code: "en",
                 file: "en-US.yml",
-                iso: "en-US",
+                language: "en-US",
                 name: "English",
             },
             {
                 code: "it",
                 file: "it-IT.yml",
-                iso: "it-IT",
+                language: "it-IT",
                 name: "Italiano",
             },
         ],
