@@ -24,7 +24,7 @@
         "bulma": "^1.0.2",
         "bulma-switch": "^2.0.4",
         "parse": "^6.0.0",
-        "pinia": "^2.0.23",
+        "pinia": "^3.0.0",
         "telegraf": "^4.16.3",
         "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
     },
