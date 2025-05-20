@@ -3,6 +3,7 @@
 !.env.example
 
 # Build artifacts
+.data/
 .nuxt/
 .output/
 dist
