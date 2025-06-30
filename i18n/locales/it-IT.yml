@@ -1,4 +1,7 @@
 contacts:
+  block:
+    description: Contattami usando questo form contatti (attualmente in manutenzione) o con i link social.
+  subtitle: Dove puoi contattarmi
   textme:
     from:
       errorMessage: >-
@@ -20,6 +23,7 @@ contacts:
         Il campo Oggetto è richiesto, dato che mi aiuta a capire meglio il
         contenuto della email.
       label: Oggetto
+      placeholder: Per cosa vuoi contattarmi?
     subtitle: Completa questo form per mandarmi una mail.
     title: Scrivimi
   title: Contatti
@@ -30,12 +34,18 @@ dark-theme:
   switcher:
     text: Cambia il tema del sito.
 details:
+  content: >-
+    Sono nato a Cesena nel 1996, dove vivo attualmente. Lavoro presso Horsa Devlab, una software con una sede qui nella mia citta. Sono un capo scout in AGESCI dal 2018 e mi piace rendermi utile nel mio tempo libero. Quando non sono agli scout, mi piace fare camminate all'aria aperta o cucinare. Mi puoi raggiungere in ogni momento usando il form dei contatti {0}.
+  described: descritto qui
   subtitle: Un po' di biografia.
   title: Dettagli
 education:
   title: Educazione
 experience:
   title: Esperienze
+footer:
+  bulma:
+    alt: Fatto con Bulma
 form:
   cancel: Cancella
   submit: Invia
@@ -44,6 +54,8 @@ home:
 index:
   subtitle: Sono uno Scout italiano e un ingegnere informatico.
 interests:
+  content: >-
+    I miei interessi in ambito informatico sono le pratiche DevOps e lo sviluppo di applicazioni web usando Vue.js come frontend e Node.Js o Asp.Net come backend. Purtroppo ho abbandonato lo sviluppo mobile usando .Net Maui.
   subtitle: I miei principali interessi informatici.
   title: Interessi
 this-site:

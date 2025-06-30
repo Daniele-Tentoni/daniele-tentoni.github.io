@@ -39,24 +39,16 @@
                 <main>
                     <MySection id="details">
                         <p>
-                            I was born in 1996 in Cesena, where I live now. I'm
-                            working at Horsa Devlab, a software house based with
-                            an office in my city. I'm a chief in the biggest
-                            scout association in Italy, AGESCI, since 2018, and
-                            I enjoy be helpful in my freetime. When I'm not at
-                            scouts, I like to go to trekking or cooking. You can
-                            reach me at any time using one of contacts method
-                            <NuxtLink to="/contacts" style="color: 'black'">
-                                described here </NuxtLink
-                            >.
+                            <i18n-t keypath="details.content">
+                                <NuxtLink to="/contacts" style="color: 'black'">
+                                    {{ t("details.described") }}
+                                </NuxtLink>
+                            </i18n-t>
                         </p>
                     </MySection>
                     <MySection id="interests">
                         <p>
-                            My IT interests are DevOps practices, building Web
-                            Apps using Vue.js as frontend framework and
-                            Node/Asp.Net as backend and mobile applications
-                            using .Net Maui.
+                            {{ t("interests.content") }}
                         </p>
                         <p>
                             I'm learning by me Rust language from offcial book.

@@ -54,6 +54,12 @@
                         >
                             {{ $t("tools.title") }}
                         </NuxtLink>
+                        <NuxtLink
+                            class="navbar-item"
+                            :to="localePath('/content')"
+                        >
+                            Content
+                        </NuxtLink>
                     </div>
                     <div class="navbar-end">
                         <div class="navbar-item">

@@ -34,13 +34,14 @@ dark-theme:
   switcher:
     text: Change the site theme.
 details:
-  subtitle: Some bio.
-  title: Details
   content: >-
     I was born in 1996 in Cesena, where I live now. I'm working at Horsa Devlab,
     a software house based with an office in my city. I'm a chief in the biggest
     scout association in Italy, AGESCI, since 2018, and I enjoy be helpful in my
-    freetime. When I'm not at scouts, I like to go to trekking or cooking.
+    freetime. When I'm not at scouts, I like to go to trekking or cooking. You can reach me at any time using one of contacts method {0}.
+  described: described here
+  subtitle: Some bio.
+  title: Details
 education:
   title: Education
 experience:
@@ -56,6 +57,8 @@ home:
 index:
   subtitle: I'm an italian Scout and IT Engineer.
 interests:
+  content: >-
+    My IT interests are DevOps practices, building Web Apps using Vue.js as frontend framework and Node/Asp.Net as backend. I've abandoned mobile applications development using .Net Maui.
   subtitle: My relevant IT interests.
   title: Interests
 this-site:
