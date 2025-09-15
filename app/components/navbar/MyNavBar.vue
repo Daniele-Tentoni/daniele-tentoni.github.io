@@ -39,12 +39,12 @@
           }"
         >
           <div class="navbar-start">
-            <NuxtLink class="navbar-item" :to="localePath('/')">
-              {{ $t("home.title") }}
-            </NuxtLink>
-            <NuxtLink class="navbar-item" :to="localePath('/contacts')">
-              {{ $t("contacts.title") }}
-            </NuxtLink>
+            <NuxtLinkLocale class="navbar-item" to="/">{{
+              $t("home.title")
+            }}</NuxtLinkLocale>
+            <NuxtLinkLocale class="navbar-item" to="/contacts">{{
+              $t("contacts.title")
+            }}</NuxtLinkLocale>
             <NuxtLink class="navbar-item" :to="localePath('/tools/excel')">
               {{ $t("tools.title") }}
             </NuxtLink>

@@ -68,6 +68,9 @@ this-site:
     To improve my personal skills with Vue 3 and Nuxt 3, I've made this site
     with static content from scratch. For more info, look at the {0}.
   tos: public repo
+utils:
+  language:
+    switch: Change language to {locale}
 volunteer:
   subtitle: My major volunteer experiences.
   title: Volunteer experience

@@ -65,6 +65,9 @@ this-site:
     Per migliorare le mie capacità personali con Vue e Nuxt, ho creato questo
     sito statico da zero. Per altre informazioni, guarda al {0}.
   tos: repository pubblico
+utils:
+  language:
+    switch: Cambia lingua a {locale}
 volunteer:
   subtitle: Le mie maggiori esperienze di volontariato.
   title: Esperienze di Volontariato

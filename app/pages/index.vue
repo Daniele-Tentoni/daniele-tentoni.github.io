@@ -38,7 +38,7 @@
           <MySection id="details">
             <p>
               <i18n-t keypath="details.content">
-                <NuxtLink to="/contacts" style="color: &quot;black&quot;">
+                <NuxtLink to="/contacts" style="color: black">
                   {{ t("details.described") }}
                 </NuxtLink>
               </i18n-t>
