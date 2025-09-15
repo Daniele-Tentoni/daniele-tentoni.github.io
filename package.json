@@ -1,48 +1,54 @@
 {
-    "name": "daniele-tentoni.github.io",
-    "author": "daniele-tentoni",
-    "license": "MIT",
-    "type": "module",
-    "private": true,
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Daniele-Tentoni/daniele-tentoni.github.io.git"
-    },
-    "version": "0.1.0",
-    "scripts": {
-        "build": "nuxt build",
-        "clean": "nuxt cleanup && rm -rf .nuxt .output dist node_modules",
-        "dev": "nuxt dev",
-        "lint": "eslint --ext \".ts,.js,.vue,.json\" --ignore-path .eslintignore .",
-        "generate": "nuxt generate",
-        "preview": "nuxt preview",
-        "postinstall": "nuxt prepare"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "^7.0.0",
-        "@pinia/nuxt": "^0.11.0",
-        "bulma": "^1.0.2",
-        "bulma-switch": "^2.0.4",
-        "parse": "^6.0.0",
-        "pinia": "^3.0.0",
-        "telegraf": "^4.16.3",
-        "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
-    },
-    "devDependencies": {
-        "@intlify/eslint-plugin-vue-i18n": "^4.0.0",
-        "@nuxt/content": "^3.0.0",
-        "@nuxt/eslint": "^1.0.0",
-        "@nuxt/types": "^2.18.1",
-        "@nuxt/typescript-build": "^3.0.2",
-        "@nuxtjs/i18n": "10.1.0",
-        "@nuxtjs/sitemap": "^7.0.0",
-        "eslint": "^9.0.0",
-        "eslint-plugin-nuxt": "^4.0.0",
-        "nuxt": "3.19.2",
-        "sass": "^1.89.0",
-        "sass-loader": "^16.0.5",
-        "typescript": "5.9.2",
-        "vitest": "^3.0.0",
-        "vue-tsc": "^3.0.0"
+  "name": "daniele-tentoni.github.io",
+  "author": "daniele-tentoni",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniele-Tentoni/daniele-tentoni.github.io.git"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm"
     }
+  },
+  "version": "0.1.0",
+  "scripts": {
+    "build": "nuxt build",
+    "clean": "nuxt cleanup && rm -rf .nuxt .output dist node_modules",
+    "dev": "nuxt dev",
+    "lint": "eslint --ext \".ts,.js,.vue,.json\" --ignore-path .eslintignore .",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.0.0",
+    "@pinia/nuxt": "^0.11.0",
+    "better-sqlite3": "^12.2.0",
+    "bulma": "^1.0.2",
+    "bulma-switch": "^2.0.4",
+    "parse": "^6.0.0",
+    "pinia": "^3.0.0",
+    "telegraf": "^4.16.3",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@intlify/eslint-plugin-vue-i18n": "^4.0.0",
+    "@nuxt/content": "^3.0.0",
+    "@nuxt/eslint": "^1.0.0",
+    "@nuxt/types": "^2.18.1",
+    "@nuxt/typescript-build": "^3.0.2",
+    "@nuxtjs/i18n": "10.1.0",
+    "@nuxtjs/sitemap": "^7.0.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "nuxt": "^4.1.2",
+    "sass": "^1.89.0",
+    "sass-loader": "^16.0.5",
+    "typescript": "5.9.2",
+    "vitest": "^3.0.0",
+    "vue-tsc": "^3.0.0"
+  }
 }

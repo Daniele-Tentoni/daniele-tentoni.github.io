@@ -13,7 +13,7 @@
 
 <script setup>
 import { onMounted, onUnmounted } from "vue";
-import FloatingActionButton from "./components/FloatingActionButton.vue";
+import FloatingActionButton from "./app/components/FloatingActionButton.vue";
 import { useThemeStore } from "./stores/themeStore";
 
 // Start Dark Theme

@@ -1,51 +1,54 @@
 name: Deploy to Github Pages
 
 on:
-    push:
-        branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
 
-            - name: Setup node env
-              uses: actions/setup-node@v5
-              with:
-                  node-version: "latest"
-                  cache: "npm"
+      - name: Setup node env
+        uses: actions/setup-node@v5
+        with:
+          node-version: "latest"
+          cache: "npm"
 
-            - name: Install dependencies
-              run: npm install
+      - name: Install dependencies
+        run: npm install
 
-            - name: Generate
-              run: npx nuxt build --preset github_pages
+      - name: Generate
+        run: npx nuxt build --preset github_pages
 
-            - name: Upload artifact
-              uses: actions/upload-pages-artifact@v4
-              with:
-                  path: ./.output/public
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./.output/public
 
-            - name: Upload server artifact
-              uses: actions/upload-artifact@v4.6.2
-              with:
-                  name: server
-                  path: .output/server
+      - name: Upload server artifact
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          name: server
+          path: .output/server
 
-    deploy:
-        needs: build
-        runs-on: ubuntu-latest
-        permissions:
-            pages: write # to deploy to Pages
-            id-token: write # to verify the deployment originates from an appropriate source
-        # Deploy to the github_pages environment
-        environment:
-            name: github_pages
-            url: ${{ steps.deployment.outputs.page_url }}
-        steps:
-            - name: Deploy client to GitHub Pages
-              id: deployment
-              uses: actions/deploy-pages@v4
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
+    # Deploy to the github_pages environment
+    environment:
+      name: github_pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy client to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

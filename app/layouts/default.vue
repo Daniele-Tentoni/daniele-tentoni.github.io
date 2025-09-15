@@ -17,8 +17,8 @@
 </template>
 
 <script setup>
-import MyFooter from "../components/MyFooter.vue";
-import MyNavBar from "../components/navbar/MyNavBar.vue";
+import MyFooter from "../app/components/MyFooter.vue";
+import MyNavBar from "../app/components/navbar/MyNavBar.vue";
 import { useThemeStore } from "../stores/themeStore";
 
 // Start Dark Theme support.
