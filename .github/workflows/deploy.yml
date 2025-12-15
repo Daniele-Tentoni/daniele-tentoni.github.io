@@ -33,7 +33,7 @@ jobs:
           path: ./.output/public
 
       - name: Upload server artifact
-        uses: actions/upload-artifact@v5.0.0
+        uses: actions/upload-artifact@v6.0.0
         with:
           name: server
           path: .output/server
