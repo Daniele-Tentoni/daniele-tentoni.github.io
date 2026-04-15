@@ -9,7 +9,7 @@
 
 <script setup lang="ts">
 import * as XLSX from "xlsx";
-import BButton from "../../app/components/elements/BButton.vue";
+import BButton from "../../components/elements/BButton.vue";
 import { ref } from "vue";
 
 const start = ref();
